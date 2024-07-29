@@ -15,7 +15,8 @@
 
 .second_body{
     width: auto;
-    height: 6668px;
+    /* height: 6668px; */
+    height: 4450px;
     background: #FFF;
 }
 
@@ -600,7 +601,7 @@ header{
 
 input[type=search] {
     background:  no-repeat 13px center;
-    background-image: url('static/icons/Frame\ 26.png');
+    background-image: url('../static/icons/Frame_26.png');
     display: flex;
     width: 100px;
     height: 44px;
@@ -1327,6 +1328,7 @@ input[type=search] {
     font-weight: 500;
     line-height: 20px; /* 50% */
     letter-spacing: 0.4px;
+    margin: 0%;
 }
 
 .advertise1_details_p_outerlayer{
@@ -1335,6 +1337,17 @@ input[type=search] {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.advertise1_details_p{
+    color: #6A6A6A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.16px;
+    margin: 0%;
 }
 
 .advertise1_details_btn_outerlayout{
@@ -1360,11 +1373,14 @@ input[type=search] {
 }
 
 .advertise1_details_image{
+    position: relative;
+    z-index: 2;
     width: 253.812px;
     height: 346.857px;
     transform: rotate(0.196deg);
     flex-shrink: 0;
-    background: url("../static/icons/semi_formal_graudation_girl.png") lightgray 50% / cover no-repeat;
+    margin: 0px 0px 0px 50px;
+    /* background: url("../static/icons/semi_formal_graudation_girl.png") lightgray 50% / cover no-repeat; */
 }
 
 
@@ -1384,7 +1400,6 @@ input[type=search] {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
 }
 
 .advertise2_details_h1_outerlayout{
@@ -1403,6 +1418,7 @@ input[type=search] {
     font-weight: 500;
     line-height: 20px; /* 50% */
     letter-spacing: 0.4px;
+    margin: 0%;
 }
 
 .advertise2_details_p_outerlayer{
@@ -1435,11 +1451,11 @@ input[type=search] {
     box-shadow: 0px 3px 4px 0px rgba(197, 206, 255, 0.20);
 }
 
-.advertise1_details_image{
+.advertise2_details_image{
     width: 414px;
     height: 403px;
     flex-shrink: 0;
-    background: url("../static/icons/confident-young-team-leader-manager-260nw-189402425\ 1.png") lightgray 50% / cover no-repeat;
+    /* background: url("../static/icons/confident-young-team-leader-manager-260nw-189402425\ 1.png") lightgray 50% / cover no-repeat; */
 }
 
 
@@ -1533,6 +1549,12 @@ footer{
     height: 14px;
     flex-shrink: 0;
     fill: #FFF;
+}
+
+.footer_newsletter_line{
+    width: 297.015px;
+    height: var(--Radius-Sharp, 1px);
+    background: #FFF;
 }
 
 .footer_links_category_h1{
