@@ -19,6 +19,7 @@ body{
     width: 100%;
     height: 1150px;
     flex-shrink: 0;
+    margin: 0%;
     background: linear-gradient(120deg, #CDF3FF -3.47%, rgba(255, 255, 255, 0.95) 53.39%, #B0EBFE 108.5%) no-repeat fixed;
 }
 
@@ -30,6 +31,7 @@ body{
     background: #FFF;
     align-items: center;
     justify-content: center;
+    margin: 0%;
 }
 
 .list_courses_layout{
@@ -1058,7 +1060,6 @@ input[type=search] {
     width: auto;
     flex-direction: column;
     align-items: flex-start;
-    align-items: center;
     gap: 28px;
 }
 
@@ -1131,7 +1132,7 @@ input[type=search] {
     flex-shrink: 0;
     height: 67px;
     padding: 10px;
-    align-items: center;
+    align-items: left;
     gap: 10px;
 }
 
@@ -1182,12 +1183,15 @@ input[type=search] {
 }
 
 .features_details2_image{
-    width: 420.422px;
-    height: 427.916px;
+    display: flex;
+    /* width: 420.422px;
+    height: 427.916px; */
+    width: 300px;
+    height: 300px;
     transform: rotate(24.184deg);
     flex-shrink: 0;
     margin-right: 0px;
-    position: relative;
+    position: absolute;
     z-index: 0;
 }
 
