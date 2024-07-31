@@ -13,7 +13,7 @@
 
             <!--This is Header Section of the body html-->
 
-            <header>
+            <header style="width: auto;">
                 <span class="header_left" >
                     <span class="header_left_icons">
                         <img src="static/icons/Frame 28.png" alt="Switch Laguage">
@@ -66,68 +66,93 @@
 
     <!--This is Poster, Image & Join Section of the body html-->
 
-    <div class="flex-container">
-        <span>
-            <img class="layout2" src="static/icons/decorative elements.png" alt="decorative elements">
-        </span>
-            <span class="layout3">
-                <span class="layout4">
-                    
-                    <span class="layout7">
-                        <span class="layout8">
-                        <h1 class="heading1">Kick-Start Your <span class="background_color" >Career</span> With Us</h1>
-                        </span>
+    <div style="width: 100%; height: 100%; display: flex;">
+        
+        <div style="display: flex; width: 60%; height: 100%;">
+            <span class="layout2">
+                <img src="static/icons/decorative elements.png" alt="decorative elements" style="width: 490px; height: 832px;">
+            </span>
+                <span class="layout3" style="width:100%; height: 100%; justify-content: center; align-items: center;">
+                    <span class="layout4" style="width: auto; height: auto;">
                         
-                        <span class="layout9">
-                            <p class="p2">Start, switch, or advance your career with bootcamp® learning programs, get<br>professional certificates from world-class teaching methods</p>
+                        <span class="layout7">
+                            <span class="layout8">
+                            <h1 class="heading1">Kick-Start Your <span class="background_color" >Career</span> With Us</h1>
+                            </span>
+                            
+                            <span class="layout9">
+                                <p class="p2">Start, switch, or advance your career with bootcamp® learning programs, get<br>professional certificates from world-class teaching methods</p>
+                            </span>
+                            
                         </span>
-                        
-                    </span>
-
-                    <div class="button_layout">
-                        <div class="button_box">
-                            <button class="button" type="button">
-                                <span class="button_content">JOIN FOR FREE</span>
-                            </button>
+    
+                        <div class="button_layout">
+                            <div class="button_box">
+                                <button class="button" type="button">
+                                    <span class="button_content">JOIN FOR FREE</span>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    
-
-                </span>  
-            </span>
-
-            <span style="display: flex; float: right;">
-                <span class="subtract1_layout under">
-                    <span class="subtract1_innerLayout">
-                        <h3 class="subtract1_h3_content">2K+</h3>
-                        <p class="subtract1_p_content">Courses</p>
-                    </span>
+                    </span>  
                 </span>
+        </div>
+        
+        <div style="display: flex; width: auto; height: auto;">
+            
+                
 
-                <span style="float: left;">
-                    <span class="subtract2_layout under">
-                        <span class="subtract2_innerLayout">
-                            <h3 class="subtract2_h3_content">200K+</h3>
-                            <p class="subtract2_p_content">Students</p>
+            <div style="width: 100%; height: auto; display: flex;">
+
+                <div style="margin-top: 25%;">
+
+                    <span class="subtract1_layout under">
+                        <span class="subtract1_innerLayout">
+                            <h3 class="subtract1_h3_content">2K+</h3>
+                            <p class="subtract1_p_content">Courses</p>
                         </span>
                     </span>
+    
+                    <span style="float: left; over">
+                        <span class="subtract2_layout under">
+                            <span class="subtract2_innerLayout">
+                                <h3 class="subtract2_h3_content">200K+</h3>
+                                <p class="subtract2_p_content">Students</p>
+                            </span>
+                        </span>
+                    </span>
+
+                </div>
+
+                <span style="display: flex; height: auto; align-items: last baseline;">
+                    <span style="width: 100%; height: 100%; display: flex; position: relative; z-index: 1;">
+                    <img style="  display: block; margin-left: auto; margin-right: 0%; width: 100%;" src="static/icons/Abstract orange and blue background with blurry elements.png" alt="Abstract orange and blue background with blurry elements">
                 </span>
+
+                
+
+                <img class="image_layout2 over"  src="static/icons/College-Girl 1.png" alt="College Girl 1">
+                </span> 
+            </div>
+                
             
-                <img class="image_layout1 under" src="static/icons/Abstract orange and blue background with blurry elements.png" alt="Abstract orange and blue background with blurry elements">
-                <img class="image_layout2 over" style="margin-top: 72px;" src="static/icons/College-Girl 1.png" alt="College Girl 1">
-            </span>
+        </div>
+            
     </div>
 
     <!-- This is Trusted Partner Section -->
 
-    <div class="flex-container" style="margin: 350px 150px 100px 100px;">
+    <div class="flex-container" style="margin: 150px 30px 50px 30px;">
         <div class="partner_layout">
             <span class="partner_innerlayout">
 
                 <span class="partner_box_layout">
                     <img class="image_layout3" src="static/icons/Various training courses for children.png" alt="Various training courses for children">
-                    <h class="image_h_layout3">Total Programs</h>
-                    <p class="image_p_layout3">Find hand crafted courses</p>
+                    <span style="display: flex; flex-direction: column;">
+                        <h class="image_h_layout3">Total Programs</h>
+                        <p class="image_p_layout3">Find hand crafted courses</p>
+                        
+                    </span>
+                    
                 </span>
 
                 <span class="partner_box_layout">
@@ -152,10 +177,11 @@
 
 <!-- This is the end of first page-->
 
-<div class="second_body">
+<div class="second_body flex-container">
+    <div style="display: flex; width: 100%; height: auto;">
 
-        <span><img class="background_image1" src="static/icons/Star_1.png" alt="Star"></span>
-        <span><img class="background_image2" src="static/icons/colorful_confetti.png" alt="colorful_confetti"></span>
+        <span style="display: flex;"><img class="background_image1" src="static/icons/Star_1.png" alt="Star"></span>
+        <span style="display: flex;"><img class="background_image2" src="static/icons/colorful_confetti.png" alt="colorful_confetti"></span>
 
         <div class="list_courses_layout">
             <div class="list_courses_first_layout">
@@ -207,6 +233,13 @@
         </div>
 
 
+    </div>
+
+
+
+        
+
+
         <div class="top_courses_layout">
             <div class="top_courses_first_layout">
                 <span class="top_courses_h1_layout">
@@ -222,8 +255,16 @@
             <div class="top_courses_second_layout">
                 <div class="top_courses_profile_card_layout">
                     <img class="top_courses_profile_card_image" src="static/icons/artist-creating-digital-illustrations-her-laptop-creative-studio-space-surrounded-by-sketches 1.png" alt="artist-creating-digital-illustrations-her-laptop-creative-studio-space-surrounded-by-sketches 1">
-                    <!-- <span class="beginner_layout">Beginner</span>
-                    <span class="love_layout"><img class="love_image" src="static/icons/like.png" alt="love"></span> -->
+                    <div style="position: absolute;z-index: 10; width: 408px;" class="HASH clearfix">
+                        <span style="float: left;" class="beginner_outerlayout">
+                            <span class="beginner_layout">Beginner</span>
+                        </span>
+                        <span style="float: right;" class="love_layout">
+                            <img class="love_image" src="static/icons/like.png" alt="love">
+                        </span>
+                    </div>
+
+
                     <div class="top_courses_details_outerlayout">
                         <div class="top_courses_details_outerlayout2">
                             <div class="top_courses_details_outerlayout3">
@@ -269,8 +310,16 @@
 
                 <div class="top_courses_profile_card_layout">
                     <img class="top_courses_profile_card_image" src="static/icons/woman-is-working-computer-with-drawing-woman-screen 1.png" alt="woman-is-working-computer-with-drawing-woman-screen 1">
-                    <!-- <span class="beginner_layout">Beginner</span>
-                    <span class="love_layout"><img class="love_image" src="static/icons/like.png" alt="love"></span> -->
+                    <div style="position: absolute;z-index: 10; width: 408px;" class="HASH clearfix">
+                        <span style="float: left;" class="beginner_outerlayout">
+                            <span class="beginner_layout">Beginner</span>
+                        </span>
+                        <span style="float: right;" class="love_layout">
+                            <img class="love_image" src="static/icons/like.png" alt="love">
+                        </span>
+                    </div>
+                    
+
                     <div class="top_courses_details_outerlayout">
                         <div class="top_courses_details_outerlayout2">
                             <div class="top_courses_details_outerlayout3">
@@ -319,7 +368,7 @@
 
         <!--features section-->
 
-        <div style="margin-top: 100px;" class="features_layout">
+        <div class="features_layout">
             <span class="features_h1_outerlayout">
                 <span class="features_h1_layout">
                     <h1 class="features_h1">THINK MORE CLEARLY</h1>
@@ -387,32 +436,36 @@
 
             <div style="display: flex; gap: 20px; center;">
                 <span class="latest_blog_career_opinion1">
-                    <span class="latest_blog_career_opinion_h1_layout">
-                        <h1 class="latest_blog_career_opinion_h1">Career</h1>
-                    </span> <!--latest_blog_career_opinion_h1_layout End-->
-                    <span class="latest_blog_career_opinion_p_layout">
-                        <span class="latest_blog_career_opinion_p_h1_outerlayout">
-                            <h1 class="latest_blog_career_opinion_p_h1">Empowering Careers: The Impact of Bootcamp Bangladesh's Skill Development Program</h1>
-                        </span>
-                    </span> <!--latest_blog_career_opinion_p_layout End-->
-                    <span class="latest_blog_career_opinion_p_outerlayout">
-                        <p class="latest_blog_career_opinion_p">In a world driven by technological advancements and digital transformation, acquiring the right skills is crucial for career success.</p>
-                    </span> <!--latest_blog_career_opinion_p_outerlayout End-->
-                </span> <!--latest_blog_career_opinion10 0End-->
+                    <span class="transbox">
+                        <span class="latest_blog_career_opinion_h1_layout">
+                            <h1 class="latest_blog_career_opinion_h1">Career</h1>
+                        </span> <!--latest_blog_career_opinion_h1_layout End-->
+                        <span class="latest_blog_career_opinion_p_layout">
+                            <span class="latest_blog_career_opinion_p_h1_outerlayout">
+                                <h1 class="latest_blog_career_opinion_p_h1">Empowering Careers: The Impact of Bootcamp Bangladesh's Skill Development Program</h1>
+                            </span>
+                        </span> <!--latest_blog_career_opinion_p_layout End-->
+                        <span class="latest_blog_career_opinion_p_outerlayout">
+                            <p class="latest_blog_career_opinion_p">In a world driven by technological advancements and digital transformation, acquiring the right skills is crucial for career success.</p>
+                        </span> <!--latest_blog_career_opinion_p_outerlayout End-->
+                    </span>                    
+                </span> <!--latest_blog_career_opinion10 End-->
 
                 <span class="latest_blog_career_opinion2">
-                    <span class="latest_blog_career_opinion_h1_layout">
-                        <h1 class="latest_blog_career_opinion_h1">Opinion</h1>
-                    </span>
-                    <span class="latest_blog_career_opinion_p_layout">
-                        <span class="latest_blog_career_opinion_p_h1_outerlayout">
-                            <h1 class="latest_blog_career_opinion_p_h1">Unleashing Opportunities: How Skilled Programming Empowers Career Growth</h1>
+                    <span class="transbox">
+                        <span class="latest_blog_career_opinion_h1_layout">
+                            <h1 class="latest_blog_career_opinion_h1">Opinion</h1>
+                        </span>
+                        <span class="latest_blog_career_opinion_p_layout">
+                            <span class="latest_blog_career_opinion_p_h1_outerlayout">
+                                <h1 class="latest_blog_career_opinion_p_h1">Unleashing Opportunities: How Skilled Programming Empowers Career Growth</h1>
+                            </span>
+                        </span>
+                        <span class="latest_blog_career_opinion_p_outerlayout">
+                            <p class="latest_blog_career_opinion_p">In a world driven by technological advancements and digital ......</p>
                         </span>
                     </span>
-                    <span class="latest_blog_career_opinion_p_outerlayout">
-                        <p class="latest_blog_career_opinion_p">In a world driven by technological advancements and digital ......</p>
-                    </span>
-                </span>
+                </span> <!--latest_blog_career_opinion2 End-->
 
             </div>
 
@@ -420,15 +473,14 @@
 
         <!-- Join Section -->
 
-        <div style="margin-top:200px; width: auto; height: auto;">
-            <div style="display: block;">
+        <div class="advertise_layout">
+            <div style="display: flex; flex-direction: column;">
 
-                <div class="flex-container">
-                    <span>
-                        <img class="advertise1_details_image" src="static/icons/semi_formal_graudation_girl.png" alt="semi formal graduation girl">
-                    </span>
-                    <span class="advertise1_details_outerlayout">
-                        
+                <div style="display: flex; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+                        <span style="width: auto; height: auto; margin-left: 182px; display: flex; z-index: 0;">
+                            <img class="advertise1_details_image" src="static/icons/semi_formal_graudation_girl.png" alt="semi formal graduation girl">
+                        </span>
+                    <span class="advertise1_details_outerlayout" style="margin-left: 141px; margin-top: 35px;">
                         <span class="advertise1_details_innerlayout">
                             <span class="advertise1_details_h1_outerlayout">
                                 <h1 class="advertise1_details_h1">Join now to start learning</h1>
@@ -443,12 +495,13 @@
                             <button class="advertise1_details_btn">Get Started</button>
                         </span>
                     </span>
-                </div>
-                <div class="flex-container" style="float: right; margin-top:50px;">
-                    <span>
+                </div>  <!-- End Flex -->
+
+                <div style="display: flex; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+                    <span style="width: auto; height: auto; margin-left: 285px; display: flex; z-index: 0;">
                         <img class="advertise2_details_image" src="static/icons/confident-young-team-leader-manager-260nw-189402425 1.png" alt="confident young leader manager">
                     </span>
-                    <span class="advertise2_details_outerlayout">
+                    <span class="advertise2_details_outerlayout" style="margin-left: 296px; margin-top: 50px;">
                         
                         <span class="advertise2_details_innerlayout">
                             <span class="advertise2_details_h1_outerlayout">
@@ -469,69 +522,79 @@
             </div>
             
 
-        </div>
+        </div>  <!-- Advertisement end-->
+
+
+        <footer style="position:absolute; top: 5972px;">
+            <div class="flex-container" style="margin-top: 50px; gap: 50px;">
+                <div style="display: flex; flex-direction: column; margin-left: 30px; gap: 50px;">
+                    <div class="intro_layout">
+                        <span>
+                            <img class="footer_intro_img" src="static/icons/Bootcamp.png" alt="bootcamp">
+                        </span>
+                        <span>
+                            <p class="footer_intro_p">Start, switch, or advance your career with bootcamp® learning programs, get professional certificates from world-class teaching methods.
+                            </p>
+                        </span>
+                    </div>
+                    <!-- intro_layout-->
+        
+                    <div class="footer_newsletter_layout">
+                        <span>
+                            <h1 class="footer_newsletter_h1">Subscribe to our newsletter</h1>
+                        </span>
+                        <span>
+                            <span class="footer_newsletter_emailAddress_layout">
+                                <span class="footer_newsletter_emailAddress_first">Enter your email address</span>
+                                <span class="footer_newsletter_emailAddress_icon_layout">
+                                    <img class="footer_newsletter_emailAddress_icon" src="static/icons/left_sign.png" alt="newsletter icon">
+                                </span>
+                            </span>
+                            <div class="footer_newsletter_line" style="margin-top: 10px;"></div>
+                        </span>
+                    </div>
+                    
+                </div>
+
+                <div style="display: flex; gap: 135px;">
+                    <!-- Block Container-->
+        
+                    <div style="display: block;">
+                        <span><h1 class="footer_links_category_h1">Top categories</h1></span>
+                        <span><p class="footer_links">Illustrator® CC</p></span>
+                        <span><p class="footer_links">Illustrator® CC</p></span>
+                    </div>
+                    <!-- Block Container-->
+
+                    <div style="display: block;">
+                        <span><h1 class="footer_links_category_h1">Useful links</h1></span>
+                        <span><p class="footer_links">Blog</p></span>
+                        <span><p class="footer_links">All courses</p></span>
+                    </div>
+                    <!-- Block Container-->
+
+                    <div style="display: block;">
+                        <span><h1 class="footer_links_category_h1">Help</h1></span>
+                        <span><p class="footer_links">Contact us</p></span>
+                        <span><p class="footer_links">About us</p></span>
+                        <span><p class="footer_links">FQA</p></span>
+                    </div>
+                    <!-- Block Container-->
+
+                    </div>
+                    <!-- Flex Container-->
+
+                </div>
+                
+                    
+        </footer>
 
         
 
 </div>
 <!-- end of second body -->
 
-<footer style="margin-top: 10px;">
-    <div class="flex-container">
-        <div style="display: block;">
-            <div class="intro_layout">
-                <span>
-                    <img class="footer_intro_img" src="static/icons/Bootcamp.png" alt="bootcamp">
-                </span>
-                <span>
-                    <p class="footer_intro_p">Start, switch, or advance your career with bootcamp® learning programs, get professional certificates from world-class teaching methods.
-                    </p>
-                </span>
-            </div>
-            <!-- intro_layout-->
 
-            <div class="footer_newsletter_layout">
-                <span>
-                    <h1 class="footer_newsletter_h1">Subscribe to our newsletter</h1>
-                </span>
-                <span class="footer_newsletter_emailAddress_layout">
-                    <span class="footer_newsletter_emailAddress_first">Enter your email address</span>
-                    <img class="footer_newsletter_emailAddress_icon" src="static/icons/left_sign.png" alt="newsletter icon">  
-                </span>
-                <div class="footer_newsletter_line" style="margin-top: 10px;"></div> 
-                
-
-            </div>
-            
-        </div>
-        <!-- Block Container-->
-
-        <div style="display: block;">
-            <span><h1 class="footer_links_category_h1">Top categories</h1></span>
-            <span><p class="footer_links">Illustrator® CC</p></span>
-            <span><p class="footer_links">Illustrator® CC</p></span>
-        </div>
-        <!-- Block Container-->
-
-        <div style="display: block;">
-            <span><h1 class="footer_links_category_h1">Useful links</h1></span>
-            <span><p class="footer_links">Blog</p></span>
-            <span><p class="footer_links">All courses</p></span>
-        </div>
-        <!-- Block Container-->
-
-        <div style="display: block;">
-            <span><h1 class="footer_links_category_h1">Help</h1></span>
-            <span><p class="footer_links">Contact us</p></span>
-            <span><p class="footer_links">About us</p></span>
-            <span><p class="footer_links">FQA</p></span>
-        </div>
-        <!-- Block Container-->
-
-    </div>
-    <!-- Flex Container-->
-            
-</footer>
 
 
 </body>
